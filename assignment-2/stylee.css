@@ -1,0 +1,16 @@
+
+.myDiv {
+  border: 4px outset red;    
+  text-align: center;
+  background-image: url(./images/ll.jpg);
+  margin: 10px;
+}
+img{
+    width: 100%;
+    height: 60%
+}#t{
+background-color:lightblue;
+}#y{
+    background-color: lavenderblush;
+    text-emphasis-style: oblique;
+}
