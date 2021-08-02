@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.e{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./image/Blue-And-Black-Wallpaper-44-1920x1080.jpg);
+     background-position: center; 
+    
+
+}
+.w{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+span{
+    color:red;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:blueviolet;
+}
+.p{
+    background-color:red;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.p:hover{
+    transform: scale(1.1);
+}
+.s{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+h1{
+    color: white;
+    padding: 20px 0 20px;
+    font-size: 70px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom:  50px;
+}
+h4{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.nes form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.nes form input:first-child{
+width: 100%;
+display:inline-block;
+padding: 14px 130px 14px 15px;
+border: 2px solid red;
+border-radius: 20px;
+}
+.nes form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color:whitesmoke;
+    top: 6px;
+    right: 6px;
+}
+.icons{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.fa-twitter{
+    color:skyblue;
+}
+.fa-facebook-f{
+    color:dodgerblue;
+    padding-left:10px;
+}
+.fa-youtube{
+    color:red;
+    padding-left:10px;
+
+}
+.fa-linkedin{
+    color:blue;
+    padding-left:10px;
+
+}
+
+
+  
